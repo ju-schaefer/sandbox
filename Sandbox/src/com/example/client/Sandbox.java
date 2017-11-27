@@ -26,6 +26,9 @@ public class Sandbox implements EntryPoint {
 	public void onModuleLoad() {
 		
 		MyFlowPanel myFlowPanel = new MyFlowPanel();
+		myFlowPanel.add(new HTML("row a"));
+		myFlowPanel.add(new HTML("row b"));
+		myFlowPanel.add(new HTML("row c"));
 		
 		RootPanel.get().add(myFlowPanel);
 	}
