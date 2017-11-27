@@ -1,5 +1,8 @@
- package com.example.client;
+package com.example.client;
 
-public class MyFlowPanel {
+import com.google.gwt.user.client.ui.FlowPanel;
 
+public class MyFlowPanel extends FlowPanel {
+
+	
 }
