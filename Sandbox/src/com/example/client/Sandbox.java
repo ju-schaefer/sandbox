@@ -20,9 +20,13 @@ public class Sandbox implements EntryPoint {
 		
 		RootPanel.get().add(myFlowPanel);*/
 		
-		MyCompositeWidget widget = new MyCompositeWidget();
+		/*MyCompositeWidget widget = new MyCompositeWidget();
 		
-		RootPanel.get().add(widget);
+		RootPanel.get().add(widget);*/
+
+		MyResizeWidget resizeWidget = new MyResizeWidget();
+
+		RootLayoutPanel.get().add(resizeWidget);
 	}
 	
 }
